@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
         height: 12,
         width: 12,
         borderRadius: 12,
-        backgroundColor: '#0D8675',
+        backgroundColor: '#46B9FB',
       },
     }),
   },
