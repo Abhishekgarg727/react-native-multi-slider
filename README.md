@@ -25,6 +25,41 @@ react-native run-android
 $ npm install --save abhishekgarg727/react-native-multi-slider
 ```
 
+### Props with Examples
+
+```
+// both for multi  and single slider
+selectedStyle={{
+  backgroundColor: 'gold',
+}}
+unselectedStyle={{
+  backgroundColor: 'silver',
+}}
+values={[5]}
+containerStyle={{
+  height:40,
+}}
+trackStyle={{
+  height:10,
+  backgroundColor: 'red',
+}}
+touchDimensions={{
+  height: 40,
+  width: 40,
+  borderRadius: 20,
+  slipDisplacement: 40,
+}}
+customMarker={CustomMarker}
+sliderLength={280}
+
+// Multi marker only
+allowOverlap={false}
+snapped={true}
+min={100}
+max={3000}
+```
+
+
 ### Usage in a ScrollView
 
 ```
