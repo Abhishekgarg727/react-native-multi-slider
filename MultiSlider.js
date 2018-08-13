@@ -486,6 +486,8 @@ const styles = StyleSheet.create({
   container: {
     position: 'relative',
     height: 50,
+    marginLeft: 10,
+    paddingLeft:5,
     justifyContent: 'center'
   },
   fullTrack: {
@@ -510,7 +512,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#095FFF',
       },
       android: {
-        backgroundColor: '#0D8675',
+        backgroundColor: '#46B9FB',
       },
     }),
   },
