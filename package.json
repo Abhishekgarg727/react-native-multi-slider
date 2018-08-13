@@ -20,7 +20,7 @@
     "ios",
     "android"
   ],
-  "author": "Tomas Roos <ptomasroos@gmail.com>",
+  "author": "Abhishek Garg",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "*",
