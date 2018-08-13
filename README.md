@@ -29,6 +29,37 @@ $ npm install --save abhishekgarg727/react-native-multi-slider
 
 ```
 // both for multi  and single slider
+
+pressed: {true}
+markerStyle= {{
+  //ios only
+        height: 30,
+        width: 30,
+        borderRadius: 30,
+        borderWidth: 1,
+        borderColor: '#DDDDDD',
+        backgroundColor: '#FFFFFF',
+        shadowColor: '#000000',
+        shadowOffset: {
+          width: 0,
+          height: 3,
+        },
+        shadowRadius: 1,
+        shadowOpacity: 0.2,
+      
+     // android only
+        height: 12,
+        width: 12,
+        borderRadius: 12,
+        backgroundColor: '#0D8675',
+}
+    
+pressedMarkerStyle= {
+        height: 20,
+        width: 20,
+        borderRadius: 20,
+   }
+enabled: {true}
 selectedStyle={{
   backgroundColor: 'gold',
 }}
