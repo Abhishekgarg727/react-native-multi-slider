@@ -22,7 +22,7 @@ react-native run-android
 ### Installation
 
 ```bash
-$ npm install --save @ptomasroos/react-native-multi-slider
+$ npm install --save abhishekgarg727/react-native-multi-slider
 ```
 
 ### Usage in a ScrollView
