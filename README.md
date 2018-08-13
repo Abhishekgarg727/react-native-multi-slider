@@ -1,4 +1,4 @@
-# react-native-multi-slider
+# npm install --save abhishekgarg727/react-native-multi-slider
 
 Pure JS react native slider component with one or two markers.
 Options to customize track, touch area and provide customer markers and callbacks for touch events and value changes.
